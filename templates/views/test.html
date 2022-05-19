@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <title>TEST</title>
+</head>
+<body>
+  <div id="wrapper">
+  <h1>TEST</h1>
+<!-- HTML5 영상에 캡션과 자막 붙이기 https://developer.mozilla.org/ko/docs/Web/Guide/Audio_and_video_delivery/Adding_captions_and_subtitles_to_HTML5_video -->
+    <div class="player">
+        <video id="video" controls preload="metadata">
+            <source src="/assets/media/(여자)아이들((G)I-DLE)_-_'TOMBOY'_Official_Music_Video_1080p.mp4" type="video/mp4">
+          <track label="Korean" kind="subtitles" srclang="ko" src="/assets/sub/(여자)아이들((G)I-DLE)_-_'TOMBOY'_Official_Music_Video.kor.kor.vtt" default>
+          <track label="English" kind="subtitles" srclang="en" src="/assets/sub/(여자)아이들((G)I-DLE)_-_'TOMBOY'_Official_Music_Video.eng.eng.vtt" >
+         </video>
+    </div>
+  </div>
+</body>
+</html>
